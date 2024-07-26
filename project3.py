@@ -36,7 +36,7 @@ def quiz_game(questions):
             print("Correct,You are great!\n")
             score += 1
         else:
-            print("OOPS!!Wrong. The correct answer was", question["answer"],"\n")
+            print("OOPS!!Wrong. The correct answer was", question["answer"],)
     print(f"You got {score} out of {len(questions)} questions correct.")
 
-    quiz_game(questions)
+quiz_game(questions)
