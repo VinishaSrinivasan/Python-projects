@@ -13,4 +13,4 @@ for v in range(nopwdnd):
     pwd=""
     for j in range(pwdlen):
         pwd=pwd+random.choice(randchar)
-    print(pwd) 
+    print(pwd)
